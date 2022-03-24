@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "babel src/index.js -o bundle.js --presets @babel/preset-env --watch"
+    "babel": "babel src/index.js -o public/bundle.js --presets @babel/preset-env --watch"
   },
   "keywords": [],
   "author": "",
