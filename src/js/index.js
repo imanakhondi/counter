@@ -1,7 +1,6 @@
-const decrement=document.querySelector(".decrement");
-const incerment=document.querySelector(".incerment");
-const reset=document.querySelector(".reset");
-const spanCounter=document.querySelector(" span");
+import {decrement, incerment, reset, spanCounter} from "./dom-loader.js";
+import "../css/main.css";
+import "../css/style.css";
 
 document.addEventListener("DOMContentLoaded",getLocalTodos)
 
